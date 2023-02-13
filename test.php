@@ -10,17 +10,17 @@ $APPLICATION->SetTitle("test");
 		"AREA_FILE_SUFFIX" => "inc",
 		"COMPONENT_TEMPLATE" => ".default",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/iclude/hello_word"
+		"PATH" => "/include/hello_word"
 	)
 );?><?$APPLICATION->IncludeComponent(
 	"bitrix:main.include",
 	".default",
 	Array(
 		"AREA_FILE_RECURSIVE" => "N",
-		"AREA_FILE_SHOW" => "sect",
+		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"COMPONENT_TEMPLATE" => ".default",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => ""
+		"PATH" => "/include/test_project"
 	)
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

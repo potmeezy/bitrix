@@ -138,7 +138,7 @@
 		"AREA_FILE_SUFFIX" => "inc",
 		"COMPONENT_TEMPLATE" => ".default",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/iclude/hello_word"
+		"PATH" => "/include/hello_word"
 	)
 );?>
 </div>

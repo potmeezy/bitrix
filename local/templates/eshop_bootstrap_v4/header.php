@@ -116,12 +116,14 @@ $curPage = $APPLICATION->GetCurPage(true);
 						<div class ="test">
 						<?$APPLICATION->IncludeComponent(
 	"bitrix:main.include",
-	"",
+	".default",
 	Array(
-		"AREA_FILE_RECURSIVE" => "Y",
-		"AREA_FILE_SHOW" => "sect",
+		"AREA_FILE_RECURSIVE" => "N",
+		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => ""
+		"COMPONENT_TEMPLATE" => ".default",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/test_project"
 	)
 );?>
 						</div>
