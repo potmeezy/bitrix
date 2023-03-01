@@ -7,17 +7,17 @@ $this->setFrameMode(true);
 {
 ?>
 <div class="bx-socialsidebar">
-	<div class="bx-block-title"><?=GetMessage("SS_TITLE")?></div>
+	<div class="bx-block-title">Социальные иконки</div>
 	<div class="bx-socialsidebar-group">
-		<ul>
+		<ul class="socialsidebar-items">
 			<?foreach($arResult["REF"] as $key=>$ref):?>
-			<li>
+			<li class="socialsidebar-items_key">
 				<a target="_blank"
 					
 					href="<?=($ref)?>"
 					
-				><img src="<?=$arResult["REF_PIC"][$key]?>" width="50" 
-					height="50" alt="" ></a>
+				><img src="<?=$arResult["REF_PIC"][$key]?>" width="100%" 
+					height="100%" alt="" ></a>
 			</li>
 			<?endforeach?>
 		</ul>

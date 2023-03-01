@@ -374,3 +374,11 @@ a:hover,
 .hello {
 	color: white;
 }
+.socialsidebar-items{
+	list-style-type: none;
+	display:flex;
+	padding-left: 0px;
+}
+.socialsidebar-items_key{
+	margin-right: 5px;
+}
