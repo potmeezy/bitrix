@@ -5,25 +5,39 @@
 				<?if (!$needSidebar):?>
 					<div class="sidebar col-md-3 col-sm-4">
 						<?$APPLICATION->IncludeComponent(
-	"dv:social", 
-	".default", 
-	array(
-		"FILE" => "/upload/medialibrary/7ba/ox4m022qke3dzenpubhcaudphy6h56sm.png",
-		"REF" => array(
-			0 => "https://telegram.org",
-			1 => "https://vk.com",
-			2 => "https://en.wikipedia.org/wiki/Instagram",
-			3 => "https://en.wikipedia.org/wiki/Facebook",
-		),
-		"COMPONENT_TEMPLATE" => ".default",
-		"REF_PIC" => array(
-			0 => "/upload/medialibrary/76d/13sqyo94nldxpw1bwqxeytu8z78zxxhx.png",
-			1 => "/upload/medialibrary/c3c/kdqls7104c4b9v5bnemn3ay5xshswdq0.png",
-			2 => "/upload/medialibrary/c94/7y7p085pmpjifyh52gvw9m0l5cay66mr.png",
-			3 => "/upload/medialibrary/7ba/ox4m022qke3dzenpubhcaudphy6h56sm.png",
-		)
-	),
-	false
+	"dv:social",
+	"",
+	Array(
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"FIELD_CODE" => array("",""),
+		"FILTER_NAME" => "",
+		"IBLOCK_ID" => "4",
+		"IBLOCK_TYPE" => "icons",
+		"MESSAGE_404" => "",
+		"NEWS_COUNT" => "4",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"PROPERTY_CODE" => array("URL",""),
+		"SET_STATUS_404" => "N",
+		"SHOW_404" => "N"
+	)
 );?>
 					</div>
 				<?endif?>
