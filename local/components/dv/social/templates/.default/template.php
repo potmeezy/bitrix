@@ -10,16 +10,16 @@ $this->setFrameMode(true);
 	<div class="bx-block-title">Социальные иконки</div>
 	<div class="bx-socialsidebar-group">
 		<ul class="socialsidebar-items">
-			<?foreach($arResult["REF"] as $key=>$ref):?>
+			<?foreach($arResult["ITEMS"] as $arItem):?>
 			<li class="socialsidebar-items_key">
 				<a target="_blank"
 					
-					href="<?=($ref)?>"
+href="<? echo $arItem['DISPLAY_PROPERTIES']['URL']['VALUE']?>"
 					
-				><img src="<?=$arResult["REF_PIC"][$key]?>" width="100%" 
+				><img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" width="100%" 
 					height="100%" alt="" ></a>
 			</li>
-			<?endforeach?>
+			<?endforeach;?>
 		</ul>
 	</div>
 </div>
